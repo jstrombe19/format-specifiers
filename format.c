@@ -25,5 +25,11 @@ int main(void) {
 
     printf("integerVar = %i\t charVar = %c\n", integerVar, charVar);
 
+    // you can also add a width specifier, which is used to determine the width of the output
+    // used for floating point math
+    // if you specify a width for a floating variable, it will automatically round to that width
+
+    printf("%.1f", floatingVar);
+
     return 0;
 }
