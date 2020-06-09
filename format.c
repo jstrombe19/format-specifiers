@@ -23,5 +23,7 @@ int main(void) {
 
     printf("boolVar = %i\n", boolVar);
 
+    printf("integerVar = %i\t charVar = %c\n", integerVar, charVar);
+
     return 0;
 }
