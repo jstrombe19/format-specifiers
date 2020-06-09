@@ -15,7 +15,7 @@ int main(void) {
 
     printf("integerVar = %i\n", integerVar);
     printf("integerVar = %d\n", integerVar);
-    printf("doubleVar as an integer = %d\n", doubleVar);
+    // printf("doubleVar as an integer = %d\n", doubleVar); // this does strange things - no implicit type conversion
     printf("floatingVar = %f\n", floatingVar);
     printf("doubleVar = %e\n", doubleVar);
     printf("doubleVar = %g\n", doubleVar);
